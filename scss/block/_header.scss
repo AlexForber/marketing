@@ -58,17 +58,26 @@
     }
 
     &__bottom{
+        position: relative;
         padding: 72px 135px;
     }
 
     &__btn{
         width: 140px;
-    height: 40px;
-    font-size: 12px;
-    background: linear-gradient(
-270deg
-, #8C32F0 0%, #E73587 100%);
-    color: #fff;
+        height: 40px;
+        font-size: 12px;
+        background: linear-gradient(
+        270deg, #8C32F0 0%, #E73587 100%);
+        color: #fff;
+        margin-top: 66px;
+        outline: none;
+        border: none;
+    }
+
+    &__img{
+        position: absolute;
+        left: 700px;
+        top: 60px;
     }
 
 }
