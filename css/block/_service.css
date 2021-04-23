@@ -1,0 +1,9 @@
+.service {
+  margin-top: 120px;
+}
+.service__title {
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #020E35;
+}
