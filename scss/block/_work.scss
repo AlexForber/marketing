@@ -1,0 +1,64 @@
+.work{
+    background: #020E35;
+
+    padding: 391px 0 50px 0;
+
+    &__title{
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    &__link{
+        display: block;
+        width: 140px;
+        height: 40px;
+
+        background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+
+        font-size: 12px;
+       
+        text-align: center;
+        padding-top: 12px;
+        margin: 0 auto;
+
+        color: #FFFFFF;
+    }
+
+    &__app{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 50px 0;
+    }
+
+    &__subtitle{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+
+        color: #FFFFFF;
+    }
+
+    &__subtext{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #FFFFFF;
+    }
+
+    &__text{
+        max-width: 492px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: #FFFFFF;
+    }
+}
+
