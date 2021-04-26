@@ -1,0 +1,39 @@
+.footer{
+    padding-top: 100px;
+    min-height: 715px;
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__subtitle{
+        font-size: 30px;
+        line-height: 35px;
+
+        color: #020E35;
+    }
+
+    &__title{
+        max-width: 584px;
+        font-size: 90px;
+        line-height: 110px;
+
+        color: #020E35;
+    }
+
+    &__bottom{
+        height: 25px;
+        background: #020E35;
+
+        &-text{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+
+            color: #FFFFFF;
+                    }
+    }
+}
