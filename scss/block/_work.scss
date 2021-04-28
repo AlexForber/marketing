@@ -50,6 +50,10 @@
             align-items: flex-end;
             margin-right: 20px;
         }
+
+        &:nth-child(odd) .work__text{
+            text-align: end;
+        }
     }
 
     &__subtitle{
@@ -81,10 +85,6 @@
         line-height: 20px;
 
         color: #FFFFFF;
-
-        &:nth-child(even){
-            text-align: end;
-        }
     }
 }
 
